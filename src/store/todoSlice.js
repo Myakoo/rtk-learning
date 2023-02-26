@@ -4,7 +4,7 @@ import short from 'short-uuid';
 const todoSlice = createSlice({
 	name: 'todos',
 	initialState: {
-		todos: [],
+		todos: [{id: '1',  text: 'Learn Redux', completed: false}],
 	},
 	reducers: {
 		addTodo(state, action) {

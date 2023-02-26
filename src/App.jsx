@@ -7,10 +7,10 @@ function App() {
 	const [todoText, setTodoText] = useState('');
 
 	return (
-		<>
+		<div className='h-[100vh] flex justify-center items-center flex-col bg-[#f1faee]'>
 			<TodoInput setText={setTodoText} text={todoText} />
 			<TodoList />
-		</>
+		</div>
 	);
 }
 
